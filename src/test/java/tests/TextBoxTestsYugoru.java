@@ -31,7 +31,7 @@ public class TextBoxTestsYugoru {
         $("#subjectsInput").setValue("Sub");
         $("#hobbiesWrapper").find(byText("Music")).click();
         $("#hobbiesWrapper").find(byText("Reading")).click();
-        $("#uploadPicture").sendKeys("src/files/1.jpeg");
+        $("#uploadPicture").sendKeys("/Volumes/Macintosh HD - Data/JavaLesson/qaGuru_2/src/files/1.jpeg");
         $("#currentAddress").setValue("St.Petersburg, Viborgskaya naberejnaya");
         $("#stateCity-wrapper").find(byId("state")).click();
         $("#react-select-3-option-2").click();
